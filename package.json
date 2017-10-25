@@ -1,0 +1,17 @@
+{
+  "name": "anywhere-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/anywhere",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "momamene",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  },
+  "dependencies": {
+    "azure-storage": "^2.6.0"
+  }
+}
