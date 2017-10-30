@@ -17,4 +17,12 @@ describe('anywhere.fs', () => {
     const copied = await anywhere.fs.copy(fromFile, toFile);
     await anywhere.fs.remove(toFile);
   });
+  it('size', async () => {
+    const fileInfo = {
+      storage: 'local',
+      dirname: path.join(__dirname, 'assets'),
+      filename: 'big_buck_bunny_720p_1mb.mp4'
+    };
+    assert.equal(await anywhere.fs.size(fileInfo), 1055736);
+  });
 });
