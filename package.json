@@ -1,10 +1,10 @@
 {
   "name": "anywhere-lib",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "",
   "main": "lib/anywhere",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --recursive"
   },
   "author": "momamene",
   "license": "MIT",
